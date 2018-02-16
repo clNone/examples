@@ -10,8 +10,8 @@ public class VideoBuffer {
 
     private String fileName;
 
-    public VideoBuffer(VideoFile sourseFile, VideoCodec sourseCodec) {
-        LOGGER.log(String.format(READ_TEMPLATE, sourseFile.getFullFileName(), sourseCodec.getFormat()));
+    public VideoBuffer(VideoFile sourseFile, VideoCodec sourceCodec) {
+        LOGGER.log(String.format(READ_TEMPLATE, sourseFile.getFullFileName(), sourceCodec.getFormat()));
         this.fileName = sourseFile.getFileName();
     }
 
